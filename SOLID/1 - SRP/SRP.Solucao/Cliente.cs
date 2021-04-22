@@ -14,7 +14,7 @@ namespace SOLID._1___SRP.SRP.Solucao
 
         public bool IsValid()
         {
-            return true;
+            return EmailServices.IsValid(Email) && CPFServices.IsValid(Cpf);
         }
     }
 }

@@ -4,7 +4,11 @@ using System.Text;
 
 namespace SOLID._1___SRP.SRP.Solucao
 {
-    class CPFServices
+    public class CPFServices
     {
+        public static bool IsValid(string cpf)
+        {
+            return cpf.Length == 11;
+        }
     }
 }
