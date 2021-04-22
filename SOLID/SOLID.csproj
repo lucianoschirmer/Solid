@@ -6,8 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2 - OCP\OCP.Solucao\" />
-    <Folder Include="3 - LSP\LSP.Solucao\" />
     <Folder Include="4 - ISP\ISP.Solucao\" />
     <Folder Include="5 - DIP\DIP.Solucao\" />
   </ItemGroup>
